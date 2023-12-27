@@ -161,7 +161,6 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(260px, auto));
 }
 
-
 .about__icons {
     display: flex;
     flex-direction: column;
@@ -183,6 +182,7 @@ body {
     margin-left: 100px; /* Aumenta el margen izquierdo */
     margin-right: 100px; /* Aumenta el margen derecho */
 }
+
 /* Knowledge */
 
 .knowledge {
