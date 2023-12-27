@@ -163,25 +163,12 @@ body {
 
 
 .about__icons {
-    color: #080808;
-    border-radius: 20px;
-    display: grid;
-    gap: 1em;
-    justify-items: center;
-    width: 260px;
-    height: 120px;
-    overflow: hidden;
-    margin: 0 auto;
-    background-color:#bfe7f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.about__icon {
-    justify-items: center;
-    width: 80px;
-}
-
-/* Estilos generales para los botones */
-.button-container button {
+.button-informacion, .button-registro, .button-inicio {
     font-family: 'myfont', Poppins;
     background-color: #98eaf5;
     border-radius: 20px;
