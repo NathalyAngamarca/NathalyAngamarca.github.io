@@ -165,7 +165,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#c6c6f5;
+    background-color:#b0e2ee;
 }
 
 .about__icon {
@@ -175,7 +175,7 @@ body {
 
 .button-informacion, .button-registro, .button-inicio {
     font-family: 'myfont', Poppins;
-    background-color: #98eaf5;
+    background-color: #6cb8eb;
     border-radius: 20px;
     padding: 15px 32px;
     text-align: center;
