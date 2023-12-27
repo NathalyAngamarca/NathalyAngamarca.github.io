@@ -165,7 +165,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color:#b0e2ee;
+    color: rgb(105, 105, 105);
+    background-color:#dbf4fa;
 }
 
 .about__icon {
@@ -174,8 +175,7 @@ body {
 }
 
 .button-informacion, .button-registro, .button-inicio {
-    font-family: 'myfont', Poppins;
-    background-color: #6cb8eb;
+    background-color: #dcd6f8;
     border-radius: 20px;
     padding: 15px 32px;
     text-align: center;
@@ -187,6 +187,20 @@ body {
     border: none;
     margin-left: 100px; /* Aumenta el margen izquierdo */
     margin-right: 100px; /* Aumenta el margen derecho */
+    font-weight: bold;
+}
+
+.card button {
+    margin-top: 0px;
+    padding: 20px 30px; /* Aumenta el relleno */
+    margin-bottom: 40px;
+    background-color: #80d2eb;
+    color: rgb(241, 241, 238);
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px; /* Aumenta el tamaño de la fuente */
 }
 
 /* Knowledge */
