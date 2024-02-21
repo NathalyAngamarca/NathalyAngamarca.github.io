@@ -16,7 +16,7 @@
     <header class="hero">
         <nav class="nav container">
             <div class="nav__logo">
-                <h2 class="nav__title">SISTEMA ELECTRICO.</h2>
+                <h2 class="nav__title">SISTEMA ELÉCTRICO.</h2>
             </div>
 
             <ul class="nav__link nav__link--menu">
@@ -30,7 +30,7 @@
 
         <section class="hero__container container">
             <h1 class="hero__title">BIENVENIDO/A A NUESTRA PAGINA WEB.</h1>
-            <p class="hero__paragraph">Quieres conocer cuanto consume de energia tus dispositivos electricos.
+            <p class="hero__paragraph">Quieres conocer cuanto consume de energía tus dispositivos eléctricos.
             </p>
             <a href="#" class="cta">Descubrelo aquí</a>
         </section>
@@ -38,28 +38,24 @@
 
     <main>
         <section class="container about">
-
             <div class="about__main">
                 <article class="about__icons">
                     <img src="./images/informacion.svg" class="about__icon">
                     <h3 class="about__title">Información</h3>
+                    <button class="button-informacion" onclick="redirectToInformation()">Información</button>
                 </article>
 
                 <article class="about__icons">
                     <img src="./images/user.svg" class="about__icon">
                     <h3 class="about__title">Iniciar Sesión</h3>
+                    <button class="button-registro" onclick="redirectToLogin()">Inicio de Sesión</button>
                 </article>
 
                 <article class="about__icons">
                     <img src="./images/registro.svg" class="about__icon">
                     <h3 class="about__title">Registrate con Nosotros</h3>
+                    <button class="button-inicio" onclick="redirectToRegister()">Registro</button>
                 </article>
-            </div>
-
-            <div class="button-container">
-                <button class="button-informacion" onclick="redirectToInformation()">Información</button>
-                <button class="button-registro" onclick="redirectToLogin()">Inicio Sesión</button>
-                <button class="button-inicio" onclick="redirectToRegister()">Registrate</button>
             </div>
         </section>
 
@@ -71,7 +67,7 @@
                     <div class="testimony__texts">
                         <h2 class="subtitle"> Nathaly Angamarca, <span class="testimony__course"> Estudiante de
                                 UNL.</span></h2>
-                        <p class="testimony__review">Estudiante de la carrera de computación de la Universidad Nacional
+                        <p class="testimony__review">Estudiante de la carrera de Ingeniería en Sistemas/Computación de la Universidad Nacional
                             de Loja</p>
                         </p>
 
@@ -88,7 +84,7 @@
                     <div class="testimony__texts">
                         <h2 class="subtitle">Letty Cañar, <span class="testimony__course"> Estudiante de UNL.</span>
                         </h2>
-                        <p class="testimony__review">Estudiante de la carrera de computación de la Universidad Nacional
+                        <p class="testimony__review">Estudiante de la carrera de Ingeniería en Sistemas/Computación de la Universidad Nacional
                             de Loja</p>
                     </div>
 
@@ -103,7 +99,7 @@
                     <div class="testimony__texts">
                         <h2 class="subtitle"> Jose Encalada <span class="testimony__course"> Estudiante de UNL.</span>
                         </h2>
-                        <p class="testimony__review">Estudiante de la carrera de computación de la Universidad Nacional
+                        <p class="testimony__review">Estudiante de la carrera de Ingeniería en Sistemas/Computación de la Universidad Nacional
                             de Loja</p>
                     </div>
 
@@ -118,7 +114,7 @@
                     <div class="testimony__texts">
                         <h2 class="subtitle">Mauricio Guachizaca, <span class="testimony__course"> Estudiante de
                                 UNL.</span></h2>
-                        <p class="testimony__review">Estudiante de la carrera de computación de la Universidad Nacional
+                        <p class="testimony__review">Estudiante de la carrera de Ingeniería en Sistemas/Computación de la Universidad Nacional
                             de Loja</p>
                     </div>
 
@@ -133,7 +129,7 @@
                     <div class="testimony__texts">
                         <h2 class="subtitle">Boris Rengel, <span class="testimony__course"> Estudiante de
                                 UNL.</span></h2>
-                        <p class="testimony__review">Estudiante de la carrera de computación de la Universidad Nacional
+                        <p class="testimony__review">Estudiante de la carrera de Ingeniería en Sistemas/Computación de la Universidad Nacional
                             de Loja</p>
                     </div>
 
@@ -148,7 +144,7 @@
         </section>
 
         <section class="questions container">
-            <h2 class="subtitle">Proyecto SISTEMA ELECTRICO</h2>
+            <h2 class="subtitle">Proyecto SISTEMA ELÉCTRICO</h2>
             <section class="questions__container">
                 <article class="questions__padding">
                     <div class="questions__answer">
@@ -170,10 +166,19 @@
                             </span>
                         </h3>
 
-                        <p class="questions__show">De Este?</p>
+                        <p class="questions__show">1. La creación de casos de uso e historias de usuarios son prácticas fundamentales de desarrollo de software porque le permiten especificar, comunicar y entregar requisitos del sistema desde la perspectiva del usuario, además, es importante que los casos de uso y las historias de usuario sean precisos y fáciles de entender, esto facilitará la comunicación y la comprensión de lo que se necesita para el sistema.
+<br>
+2. Logramos con éxito una adaptación fluida a otro dispositivo distinto de un computador. Está adaptabilidad responde a variaciones de tamaño y resolución, y también refleja nuestro compromiso con la accesibilidad de los posibles usuarios de nuestro sistema,garantizando una experiencia consistente y de calidad para ellos.
+<br>
+3. El uso de github en nuestro proyecto ha sido de mucha utilidad ya que por medio de todas sus herramientas y flujos de trabajo se pudo lograr desarrollar una página web. El uso de repositorios nos facilita a los integrantes del grupo tener todo a disposición y cada cambio que se realice se puede visualizar. </p>
                     </div>
                 </article>
             </section>
+            <div class="card">
+                <button
+                    onclick="window.location.href='https://github.com/mauricioguachizaca/Proyecto-integral-de-saberes'">
+                    Haz click para ir al repositorio de nuestro proyecto</button>
+            </div>
     </main>
 
     <footer class="footer">
